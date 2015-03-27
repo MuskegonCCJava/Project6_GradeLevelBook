@@ -1,5 +1,6 @@
 // Main_GLB.java by Kyle Wolff and Brandon VanderMey on 3/24/2015
 
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main_GLB
@@ -8,6 +9,9 @@ public class Main_GLB
 	{
 		Scanner scanner = new Scanner(System.in);
 		Textbook txtBook = new Textbook();
+		
+		Date date = new Date();
+		System.out.println("Grade Level Book by Kyle Wolff and Brandon VanderMey on " + date);
 		
 		System.out.print("\nSet title: ");
 		txtBook.setTitle(scanner.nextLine());
